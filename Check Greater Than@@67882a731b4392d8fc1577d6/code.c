@@ -7,10 +7,10 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     if (a>b){
-        return true
+        return True
     }
     esle{
-        return false
+        return False
     }
     return 0;
 }
