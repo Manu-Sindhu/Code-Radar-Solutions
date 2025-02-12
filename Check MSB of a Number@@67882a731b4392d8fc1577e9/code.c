@@ -3,15 +3,14 @@
 int main() {
     int num;
 
-    // Take input from the user
-   
     scanf("%d", &num);
 
-    // Check MSB using bitwise AND with 1
-    if (num & 1)
-        printf("Set");
+    
+    if (num & (1 << 31))
+        printf("MSB is set (1)\n");
     else
-        printf("Not Set");
+        printf("MSB is not set (0)\n");
 
     return 0;
 }
+
