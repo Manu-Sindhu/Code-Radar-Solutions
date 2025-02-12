@@ -8,4 +8,5 @@ int maain(){
     else{
         printf("Invalid");
     }
+    return 0;
 }
