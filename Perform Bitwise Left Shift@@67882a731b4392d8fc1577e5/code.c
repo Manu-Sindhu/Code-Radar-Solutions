@@ -3,6 +3,6 @@ int main(){
     int a;
     scanf("%d",&a);
     int result =a<<2;
-    printf("%d/n",result);
+    printf("%d",result);
     return 0;
 }
