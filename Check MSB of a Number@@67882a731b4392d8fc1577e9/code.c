@@ -7,9 +7,9 @@ int main() {
 
     
     if (num & (1 << 31))
-        printf("MSB is set (1)\n");
+        printf("Set");
     else
-        printf("MSB is not set (0)\n");
+        printf("Not Set");
 
     return 0;
 }
