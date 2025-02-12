@@ -2,7 +2,7 @@
 
 int main() {
     int a,b;  
-    scanf("%d %d", &b,&a);  // Take input from the user
+    scanf("%d %d", &a,&b);  // Take input from the user
 
     int result = a << b;  // Left shift 'a' by 2 positions
 
