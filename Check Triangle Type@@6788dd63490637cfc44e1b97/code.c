@@ -5,15 +5,15 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
     if(a==b==c){
         printf("Equilateral");
-        break:
+        break
     }
     else if(a==b!=c||a!=b==c||a!=c==b){
         printf("Isosceles");
-        break:
+        break
     }
     else{
         printf("Scalene");
-        break:
+        break
     }
     return 0;
 }
