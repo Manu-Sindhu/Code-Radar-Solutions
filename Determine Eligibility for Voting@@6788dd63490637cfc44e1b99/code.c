@@ -3,9 +3,9 @@ int mainn(){
     int a;
     scaanf("%d",&a);
     if(a>=18){
-        printf("Eligible")
+        printf("Eligible");
     }
     else{
-        printf("Not Eligible")
+        printf("Not Eligible");
     }
 }
