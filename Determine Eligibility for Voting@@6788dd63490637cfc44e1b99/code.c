@@ -1,5 +1,5 @@
 #include  <stdio.h>
-int mainn(){
+int main(){
     int a;
     scaanf("%d",&a);
     if(a>=18){
