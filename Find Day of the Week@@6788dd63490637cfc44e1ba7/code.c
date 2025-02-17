@@ -26,10 +26,11 @@ int main(){
         printf("Sunday");
         break;
     }
+    }
     else{
         printf("Invalid");
     }
         
         
-    }
+    
 }
