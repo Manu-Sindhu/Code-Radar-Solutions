@@ -27,7 +27,7 @@ int main(){
         break;
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
         
         
