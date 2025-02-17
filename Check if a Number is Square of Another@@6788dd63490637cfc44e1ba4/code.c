@@ -6,6 +6,6 @@ int main(){
         printf("Yes");
     }
     else{
-        print("No")
+        print("No");
     }
 }
