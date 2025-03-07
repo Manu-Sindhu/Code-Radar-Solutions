@@ -21,7 +21,8 @@ int main(){
         break;
     }
     }
-    elsw{
+    else{
         printf("Invalid Input")
 
     }
+}
