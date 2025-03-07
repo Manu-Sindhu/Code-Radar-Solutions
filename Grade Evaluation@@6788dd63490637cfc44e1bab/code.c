@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%c",&a);
-    if(a==A || a==B || a==C || a==D || a==F){
+    if(a== 'A' || a=='B' || a=='C' || a=='D' || a=='F'){
     switch(a){
         case 'A':
         printf("Excellent");
