@@ -5,7 +5,7 @@ int main(){
     while(t--){
         int num;
         scanf("%d",&num);
-        print("%d\n",isprime(num));
+        printf("%d\n",isprime(num));
     }
     return 0;
 }
