@@ -6,7 +6,7 @@ int factorial(int a){
 int main(){
     int start,end;
     scanf("%d %d",&start,&end);
-    for(int i=a;i<=b;i++){
+    for(int i=start;i<=end;i++){
     printf("%d"\n,factorial(i));
 }
 }
