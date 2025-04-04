@@ -4,11 +4,11 @@ int main(){
     scanf("%d",&N);
     for(int i=1;i<=N;i++){
         for(int j=1;j<=N;j++){
-        if(i==j){
-            break;
-        }
-        else if(i!=j){
+        if(i==1 ||i==N ||j==1||j==N){
             printf("*");
+        }
+        else {
+            printf(" ");
         }
         printf("\n");
     }
