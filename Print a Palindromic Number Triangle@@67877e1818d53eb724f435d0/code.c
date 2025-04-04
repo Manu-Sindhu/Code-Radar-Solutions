@@ -1,30 +1,27 @@
 #include <stdio.h>
 
-
-
 int main() {
     int N;
     scanf("%d", &N);
+
     for (int i = 1; i <= N; i++) {
         // Print leading spaces
         for (int s = 1; s <= N - i; s++) {
-            printf("  ");
+            printf(" ");
         }
-        // Print increasing numbers from 1 to i
+
+        // Print increasing numbers
         for (int j = 1; j <= i; j++) {
-            printf("%d",j);
-            if (j < i || i > 1) {
-                printf(" ");
-            }
+            printf("%d", j);
         }
-        // Print decreasing numbers from i-1 to 1
+
+        // Print decreasing numbers
         for (int j = i - 1; j >= 1; j--) {
             printf("%d", j);
-            if (j > 1) {
-                printf(" ");
-            }
         }
-        printf("\n");
+
+        printf("\n"); // Move to next row
     }
+
     return 0;
 }
