@@ -15,7 +15,7 @@ int main() {
         }
         // Print decreasing numbers from i-1 to 1
         for (int j = i - 1; j >= 1; j--) {
-            printf(" %d", j);
+            printf("%d", j);
         }
         printf("\n");
     }
