@@ -9,7 +9,7 @@ int main() {
             printf("  ");
         }
         // Print increasing numbers from 1 to i
-        printf("%d", 1);
+        printf("%d ", 1);
         for (int j = 2; j <= i; j++) {
             printf("%d", j);
         }
