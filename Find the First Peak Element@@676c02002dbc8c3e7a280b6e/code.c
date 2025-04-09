@@ -11,9 +11,7 @@ int main(){
             printf("%d",arr[i]);
             break;
     }
-    else if(arr[i]=arr[i+1]){
-        printf("-1");
-    }
+    
 
     }
 }
