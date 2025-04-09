@@ -1,4 +1,4 @@
-#include<stio.h>
+#include<stdio.h>
 int main(){
     int N,issorted=1;
     int arr[N];
