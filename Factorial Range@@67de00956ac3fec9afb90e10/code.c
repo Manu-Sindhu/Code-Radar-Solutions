@@ -4,4 +4,5 @@ int factorialRange(int a){
     for(int = 1;i<=a;i++){
         fact *= i;
     }
+    return fact;
 }
