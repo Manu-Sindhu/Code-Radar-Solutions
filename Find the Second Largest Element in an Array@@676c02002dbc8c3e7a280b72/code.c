@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <limits.h>
-int smax = INT_MIN;
+
 
 int main(){
     int N;
@@ -14,6 +14,7 @@ int main(){
         if(arr[i]>max){
             max=arr[i];
         }
+        int smax = INT_MIN;
     }
     for(int i=0;i<N;i++){
             if(arr[i]!=max&&arr[i]>smax){
