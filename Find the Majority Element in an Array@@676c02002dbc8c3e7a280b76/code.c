@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&N);
     }
     for(int i=0;i<N;i++){
-        count = 0;
+        int count = 0;
         for(int j=0;j<N;j++){
             if(arr[j]==arr[i]){
                 count++
