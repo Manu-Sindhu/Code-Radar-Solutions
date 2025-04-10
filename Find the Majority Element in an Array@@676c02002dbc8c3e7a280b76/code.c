@@ -15,7 +15,7 @@ int main(){
         }
         if(count>N/2){
         printf("%d",arr[i]);
-        return o;
+        return 0;
     }
     
     }
