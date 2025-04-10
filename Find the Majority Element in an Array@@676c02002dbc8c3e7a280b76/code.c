@@ -13,8 +13,8 @@ int main(){
                 count++
             }
         }
-    }
-    if(count>N/2){
+        if(count>N/2){
         printf("%d",arr[i]);
     }
-}
+    
+    }
