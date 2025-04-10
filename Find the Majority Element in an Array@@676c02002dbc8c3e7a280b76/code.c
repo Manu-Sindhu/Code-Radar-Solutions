@@ -15,8 +15,10 @@ int main(){
         }
         if(count>N/2){
         printf("%d",arr[i]);
+        return o;
     }
     
     }
     printf("-1\n");
+    return 0;
 }
