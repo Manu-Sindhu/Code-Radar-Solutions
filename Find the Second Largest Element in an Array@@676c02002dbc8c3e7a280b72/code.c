@@ -17,5 +17,5 @@ int main(){
             }
         }
     }
-    printf("%d",&smax);
+    printf("%d",smax);
 }
