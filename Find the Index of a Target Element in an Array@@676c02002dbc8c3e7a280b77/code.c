@@ -11,8 +11,10 @@ int main(){
     for(int i=0;i<N;i++){
         if(k==arr[i]){
             printf("%d",i);
-            break;
+            return 0;
         }
         
     }
+    printf("-1");
+    return 0;
 }
