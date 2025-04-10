@@ -15,7 +15,7 @@ int main(){
             }
         }
         if(!found){
-            printf("%d",i)
+            printf("%d",i);
         }
     }
         
