@@ -25,7 +25,7 @@ int main() {
     }
 
     if(smax == INT_MIN) {
-        printf("No second largest element.\n");
+        printf("-1\n");
     } else {
         printf("%d\n", smax);
     }
