@@ -12,8 +12,9 @@ int main(){
         for(int j=i+1;j<N;j++){
             if(t == arr[i]+arr[j]&& i!=j){
                 printf("%d %d",arr[i],arr[j]);
-                return 0;
+                
             }
         }
     }
+    return 0;
 }
